@@ -13,17 +13,27 @@
     font-size: 15px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    padding:50px;
+    justify-content: space-between;
+    align-content: space-between;
     .wrapper{
         display: flex;
-        margin-left: 50px;
-        padding: 20px 20px;
-        justify-content: center;
-        align-self:center;
-        align-items: center;
-        .contact-list{
-            padding: 0.46em;
+        gap: 2rem;
+        
+        list-style-type: none;
+        a{
+            color: var(--lightest-slate);
+            font-family: 'Fira code';
+            margin-right: 40%;
             font-size: 20px;
+            text-decoration: none;
+            .contacts-list{
+
+                font-size: 20px;
+                font-family: 'Fira code';
+                text-decoration: none;
+            }
         }
-    }
+
+        }
 }

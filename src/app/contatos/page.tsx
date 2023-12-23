@@ -14,20 +14,28 @@ export default function Contatos() {
         <h1 className="contact-title">Como entrar em contato comigo?</h1>
         <ul className="contacts">
             <div className="wrapper">
+            <a href="https://github.com/Tardis2001">
                 <FaGithub size={40}/>
-                <li className="contact-list"><a href="https://github.com/Tardis2001">Github</a></li>
+                <li className="contact-list">Github</li>
+            </a>
             </div>
             <div className="wrapper">
-                <FaInstagram size={40} />
-                <li className="contact-list"><a href="https://github.com/Tardis2001">Instagram</a></li>
+                <a href="https://www.instagram.com/matheuevangelista/">
+                    <FaInstagram size={40} />
+                    <li className="contact-list">Instagram</li>
+                </a>
             </div>
             <div className="wrapper">
+            <a href="https://www.linkedin.com/in/matheus-santos-evangelista-610b58181/">
                 <FaLinkedin size={40} />
-                <li className="contact-list"><a href="https://github.com/Tardis2001">Linkendin</a></li>
+                <li className="contact-list">Linkendin</li>
+            </a>
             </div>
             <div className="wrapper">
+            <a href="https://wa.me/5541992582201?text=Olá!">
                 <FaWhatsapp size={40} />
-                <li className="contact-list"><a href="https://wa.me/5541992582201?text=Olá">Whatsapp</a></li>
+                <li className="contact-list">Whatsapp</li>
+            </a>
             </div>
             
        </ul>
