@@ -7,7 +7,7 @@ export default function Projetos() {
     return(
         <main>
             <Navbar/>
-            <h1 className="projects-title">Nada Aqui por enquanto 😕 , mas logo estarei postando por aqui!</h1>
+            <h1 className="projects-title">Meus projetos pessoais ou que estou desenvolvendo</h1>
 
         </main>
     )

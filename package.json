@@ -9,14 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "blobshape": "^1.0.0",
     "dotenv": "^16.3.1",
     "next": "14.0.4",
     "nextjs-fonts": "^0.22.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-spring": "^9.7.3",
     "sass": "^1.69.5"
   },
   "devDependencies": {
+    "@types/blobshape": "^1.0.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
