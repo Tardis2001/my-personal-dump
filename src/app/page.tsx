@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         
         <title>My personal dump</title>
-        <meta name='description' content='Created in next.js' />
+        <meta name='description' content='Criado para exclusivamente meu uso pessoal' />
         <link rel='icon' href='@/src/app/favicon.ico' />
       </Head>
       <Navbar/>
