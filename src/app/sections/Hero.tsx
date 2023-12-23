@@ -19,7 +19,7 @@ export default function Hero() {
         ]}
         speed={20}
         repeat={Infinity}
-        style={{ fontSize: '2em' }}
+        style={{ fontSize: '1em' }}
       />
                 </p>
             

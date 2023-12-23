@@ -16,7 +16,7 @@ main {
         &-grid{
                 &-info{
                     margin-top: 10px;
-                    margin-bottom: 10%;
+                    margin-bottom: 20px;
                     display: flex;
                     flex-direction: column;
                     align-items: flex-start;
@@ -32,6 +32,9 @@ main {
                         margin-bottom: 20px;
                     }
                 }
+        }
+        &-skills-grid{
+          margin-bottom: 50px;
         }
     }
     @mixin sp-layout {
@@ -149,4 +152,28 @@ main {
           opacity: 0.6;
         }
       }
-}
+      .tag {
+        background: #b6b7b9;
+        color:var(--light-navy);
+        display: inline-block;
+        padding: 5px 10px 5px 25px;
+        border-radius: 90px 30px 30px 90px;
+        position: relative;
+        margin: 20px 10px 0px 10px;
+        font-family: 'Fira Code';
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          box-shadow: 0 10px 30px rgba(131, 171, 247, 0.3);
+        }
+      }
+      .tag:after {
+        content: '';
+        width: 8px;
+        height: 8px;
+        background: #0d7aff;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        border-radius: 90px;
+      }
+    }

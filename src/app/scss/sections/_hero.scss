@@ -15,17 +15,17 @@ main {
         }
         &-title{
             color: var(--lightest-slate);
-            font-size: 20px;
+            font-size: 15px;
             font-family: 'Fira code';
         }
         &-title-large{
             color: var(--white);
-            font-size: 40px;
+            font-size: 20px;
             font-family: 'Fira code';
         }
         &-subtitle{
             color: var(--lightest-slate);
-            font-size: 20px;
+            font-size: 15px;
             font-family: 'Fira code';
         }
         &-text{
@@ -53,8 +53,7 @@ text set in the data-text attribute. */
 .glitch {
 position: relative;
 color: white;
-font-size: 2em;
-letter-spacing: .5em;
+font-size: 1em;
 /* Animation provies a slight random skew. Check bottom of doc
 for more information on how to random skew. */
 animation: glitch-skew 1s infinite linear alternate-reverse;
