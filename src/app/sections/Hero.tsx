@@ -23,7 +23,7 @@ export default function Hero() {
       />
                 </p>
             
-                <p className="hero-text"> Bem vindo ao meu site pessoal!,Sou um desenvolvedor e meu foco atual é em aprender e sempre aprender tecnologias novas, para saber mais clique em um dos botões na barra acima</p>
+                <p className="hero-text"> Bem vindo ao meu site pessoal!,Sou um desenvolvedor e meu foco atual é em sempre aprender tecnologias novas, para saber mais clique acima</p>
             </div>
 
     <div className="stars">
