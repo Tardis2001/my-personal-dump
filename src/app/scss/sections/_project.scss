@@ -1,8 +1,92 @@
-main{
-    .projects-title{
-        color: var(--lightest-slate);
-        font-size: 30px;
-        padding: 50px;
-        font-family: 'Fira code';
+.projects{
+    margin-bottom: 20px;
+    &-title{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+        font-family:'Fira Code';
+    }
+    &-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 2rem;
+        margin: 0 2rem;
+        &-box{
+            background-color: var(--white);
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.7s ease-in-out;
+            &:hover{
+                transform: scale(1.05);
+            }
+            &-wrapper
+            {
+                display: flex;
+                flex-direction: column;
+                align-items:ce;
+                margin-top: 2rem;
+                gap: 1rem;
+                &-subtitle{
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    margin-bottom: 1rem;
+                    color: rgb(24, 24, 24);
+                    font-family:'Fira Code';
+                }
+                &-text{
+                    font-size: 1rem;
+                    font-weight: 400;
+                    margin-bottom: 1rem;
+                    color: rgb(24, 24, 24);
+                    font-family:'Fira Code';
+                }
+                &-link{
+
+                    margin-right: 50px;
+                    /* CSS */
+                    &-button {
+                      --b: 3px;   /* border thickness */
+                      --s: .45em; /* size of the corner */
+                      --color: #373B44;
+                      float: right;
+                      padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+                      color: var(--color);
+                      --_p: var(--s);
+                      background:
+                        conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+                        var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+                      transition: .3s linear, color 0s, background-color 0s;
+                      outline: var(--b) solid #0000;
+                      outline-offset: .6em;
+                      font-size: 16px;
+                    
+                      border: 0;
+                    
+                      user-select: none;
+                      -webkit-user-select: none;
+                      touch-action: manipulation;
+                      &:hover,
+                      &:focus-visible{
+                        --_p: 0px;
+                        outline-color: var(--color);
+                        outline-offset: .05em;
+                      }
+                      
+                      &:active {
+                        background: var(--color);
+                        color: #fff;
+                      }
+                    }
+                    
+                   
+            }
+        }
+    }
     }
 }

@@ -9,7 +9,7 @@ import { FaWhatsapp } from "react-icons/fa";
 export default function Contatos() {
 
     return(
-        < >
+        <main>
         <Navbar/>
         <h1 className="contact-title">Como entrar em contato comigo?</h1>
         <ul className="contacts">
@@ -29,8 +29,62 @@ export default function Contatos() {
                 <FaWhatsapp size={40} />
                 <li className="contact-list"><a href="https://wa.me/5541992582201?text=Olá">Whatsapp</a></li>
             </div>
+            
        </ul>
-       </>
+       
+    <div className="stars">
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+  <div className="star"></div>
+</div>
+       </main>
     )
     
 }
