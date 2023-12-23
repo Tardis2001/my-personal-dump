@@ -1,0 +1,29 @@
+.contact-title{
+    color: var(--lightest-slate);
+    font-size: 40px;
+    padding: 50px;
+    font-family: 'Fira code';
+ 
+}
+.contacts{
+    color: var(--lightest-slate);
+    font-size: 20px;
+    font-family: 'Fira code';
+    margin-right: 40%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .wrapper{
+        display: flex;
+        margin-left: 50px;
+        padding: 20px 20px;
+        justify-content: center;
+        align-self:center;
+        align-items: center;
+        .contact-list{
+            padding: 0.46em;
+            font-size: 20px;
+        }
+    }
+}
