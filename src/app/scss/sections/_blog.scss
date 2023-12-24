@@ -29,11 +29,8 @@ h3{
   }
   .item {
     position: relative;
-    margin-bottom: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin : 0 50px;
     min-height: 1px;
-    float: left;
     -webkit-backface-visibility: hidden;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
