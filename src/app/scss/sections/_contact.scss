@@ -12,8 +12,9 @@
     margin-right: 40%;
     font-size: 15px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding:50px;
+    gap: 2rem;
     justify-content: space-between;
     align-content: space-between;
     .wrapper{
