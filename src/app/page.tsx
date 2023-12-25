@@ -6,7 +6,7 @@ import "@/src/app/scss/index.scss"
 export default function Home() {
 
   ReactGA.initialize("G-5GP7K4FNZ1")
-  ReactGA.send({ hitType: 'pageview', page: document.location.pathname });
+  ReactGA.send({ hitType: 'pageview', page: "/" });
   
   return (
     <div>
