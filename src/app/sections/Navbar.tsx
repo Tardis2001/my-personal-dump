@@ -38,7 +38,7 @@ function Navbar() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{
-            duration: 0.3,
+            duration: 0.2,
             ease: "easeInOut",
           }}
         >
@@ -49,7 +49,7 @@ function Navbar() {
           initial={{ opacity: 0, y: 5 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
-            duration: 0.3,
+            duration: 0.1,
             ease: "easeInOut",
           }}
         >
@@ -98,7 +98,7 @@ function Navbar() {
             transition={{
               duration: 0.3,
               ease: "easeInOut",
-              delay: 0.6,
+              delay: 0.3,
             }}
           >
           </motion.div>

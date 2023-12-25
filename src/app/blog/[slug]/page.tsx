@@ -5,6 +5,7 @@ import matter from 'gray-matter'
 import "@/src/app/scss/index.scss"
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import Navbar from '../../sections/Navbar'
+import Image from 'next/image'
 
 export async function generateStaticParams(){
 
@@ -34,9 +35,11 @@ function getPost({slug}: {slug: string}){
 
 export default function Page({ params } :any){
     const props = getPost( params);
+    
     return (
         <>
         <Navbar />
+        <Image src={props.fontMatter.image} alt={props.fontMatter.title} width={560} height={400} style={{display:'flex',justifyContent:'center',margin:'auto', marginBottom:'160px'}} className='postimage'/>
         <article className="center">
             <h1 className='title'>{props.fontMatter.title}</h1>
             <hr />

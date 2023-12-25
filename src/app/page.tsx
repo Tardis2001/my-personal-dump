@@ -1,8 +1,13 @@
 import Head from 'next/head'
 import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
+import ReactGA from "react-ga4"
 import "@/src/app/scss/index.scss"
 export default function Home() {
+
+  ReactGA.initialize("G-5GP7K4FNZ1")
+  ReactGA.send({ hitType: 'pageview', page: document.location.pathname });
+  
   return (
     <div>
       <Head>

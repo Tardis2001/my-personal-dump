@@ -21,6 +21,7 @@
     "nextjs-fonts": "^0.22.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-ga4": "^2.1.0",
     "react-spring": "^9.7.3",
     "react-type-animation": "^3.2.0",
     "sass": "^1.69.5"
