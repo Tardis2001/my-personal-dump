@@ -6,13 +6,11 @@ import ReactGA from "react-ga"
 import "@/src/app/scss/index.scss"
 import { useEffect } from 'react'
 export default function Home() {
-  
+ console.log(process.env.googleAnalyticsID)
   useEffect(() => {
-    if(process.env.googleAnalyticsID && process.env.NODE_ENV === "production") { // Checks for GA ID and only turns on GA in production
-      ReactGA.initialize(process.env.googleAnalyticsID);
-      ReactGA.send({ hitType: 'pageview', page: window.location.pathname + window.location.search });
-    }
-  });
+    ReactGA.initialize(process.env.googleAnalyticsID || '');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
   return (
     <div>
       <Head>
