@@ -2,11 +2,12 @@
 import React from "react";
 import { TypeAnimation } from 'react-type-animation';
 export default function Hero() {
-    return(
+  
+  return(
         <main>
             <div className="hero">
-                <h1 className="hero-title">Ola meu nome é</h1>
-                <h2 className="hero-title-large glitch">Matheus Santos Evangelista</h2>
+                <h1 className="hero-title">Olá eu sou</h1>
+                <h2 className="hero-title-large glitch">Matheus Evangelista</h2>
                 <p className="hero-title-large hero-subtitle ">
       <TypeAnimation
         sequence={[
@@ -80,5 +81,9 @@ export default function Hero() {
   </div>
         </main>
     )
+}
+
+function userTranslations(arg0: string) {
+  throw new Error("Function not implemented.");
 }
     
