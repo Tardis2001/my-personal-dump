@@ -30,14 +30,12 @@ export default function App() {
           <div className="about-title"><h4>Habilidades que estou desenvolvendo</h4></div>
             <div className="about-skills-grid">
               <div className="tag">HTML</div>
-              <div className="tag">CSS3</div>
-              <div className="tag">JS</div>
+              <div className="tag">CSS</div>
+              <div className="tag">Javascript</div>
               <div className="tag">Java</div>
-              <div className="tag">Springboot</div>
               <div className="tag">C</div>
               <div className="tag">React</div>
-              <div className="tag">TS</div>
-              <div className="tag">Next</div>
+              <div className="tag">Typescript</div
       
 
 

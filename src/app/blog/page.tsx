@@ -22,7 +22,8 @@ export default function Blog() {
     return(
         <>
             <Navbar/>
-            <h3> Alguns artigos meus</h3>
+            <h1>Ainda esta pra ser escrito</h1>
+            {/* <h3> Alguns artigos meus</h3>
             {blogs.map((blog) => (
                  <div key={blog.slug}>
 
@@ -47,7 +48,7 @@ export default function Blog() {
                     </div>
                 </div>
             )   
-            )}
+            )} */}
             
     <div className="stars">
         <div className="star"></div>
