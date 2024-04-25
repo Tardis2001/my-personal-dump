@@ -40,25 +40,16 @@ export default function Projetos() {
                             </div>
                         </div>
                         <div className="projects-grid-box">
-                            <Image className="projects-grid-box-image" src={"/images/backendecommerce.png"} alt={"Imagem do swagger ui de uma aplicação para ecommerce"} width={400} height={200}></Image>
+                            <Image className="projects-grid-box-image" src={"/images/reformatruckevangelista.png"} alt={""} width={400} height={200}></Image>
                             <div className="projects-grid-box-wrapper">
-                                <h2 className="projects-grid-box-wrapper-subtitle">Backend Ecommerce AtelieRehArtes</h2>
-                                <p className="projects-grid-box-wrapper-text">Esse é o backend de um ecommerce que esta em desenvolvimento para a empresa da minha mãe.</p>
-                                <a className="projects-grid-box-wrapper-link" href="https://github.com/Tardis2001/atelierehartesbackend">
+                                <h2 className="projects-grid-box-wrapper-subtitle">Reforma Truck Evangelista</h2>
+                                <p className="projects-grid-box-wrapper-text">Essa é uma landing page feito para o meu pai chamado reforma truck</p>
+                                <a className="projects-grid-box-wrapper-link" href="https://reformatruckevangelista.vercel.app">
                                     <button className="projects-grid-box-wrapper-link-button">Ver mais</button>
                                 </a>
                             </div>
                         </div>
-                        <div className="projects-grid-box">
-                            <Image className="projects-grid-box-image" src={"/images/frontendecommerce.png"} alt={"Imagem do frontend do ecommerce"} width={400} height={200}></Image>
-                            <div className="projects-grid-box-wrapper">
-                                <h2 className="projects-grid-box-wrapper-subtitle">Frontend Ecommerce AtelieRehArtes</h2>
-                                <p className="projects-grid-box-wrapper-text">Esse é o frontend de um ecommerce que esta em desenvolvimento para a empresa da minha mãe</p>
-                        <a className="projects-grid-box-wrapper-link" href="https://github.com/Tardis2001/atelierehartesfrontend">
-                            <button className="projects-grid-box-wrapper-link-button">Ver mais</button>
-                        </a>
-                    </div>
-                </div>
+    
             </div>
 
     <div className="stars">
