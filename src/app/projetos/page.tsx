@@ -30,7 +30,7 @@ export default function Projetos() {
                     </div>
                 </div>
                 <div className="projects-grid-box">
-                    <Image className="projects-grid-box-image" src={"/images/AtelierehLandingPage.png"} alt={"Imagem de uma landingpage"} width={400} height={200}></Image>
+                    <Image className="projects-grid-box-image" src={"/images/AtelierehLandingPage.png"} alt={"Imagem de uma landing page"} width={400} height={200}></Image>
                     <div className="projects-grid-box-wrapper">
                         <h2 className="projects-grid-box-wrapper-subtitle">Atelie Reh Artes Landing Page</h2>
                                 <p className="projects-grid-box-wrapper-text">Essa é uma landing page feita para a empresa da minha mãe chamada de atelie reh artes</p>
@@ -40,7 +40,7 @@ export default function Projetos() {
                             </div>
                         </div>
                         <div className="projects-grid-box">
-                            <Image className="projects-grid-box-image" src={"/images/reformatruckevangelista.png"} alt={""} width={400} height={200}></Image>
+                            <Image className="projects-grid-box-image" src={"/images/reformatruckevangelista.png"} alt={"Imagem de uma landing page"} width={400} height={200}></Image>
                             <div className="projects-grid-box-wrapper">
                                 <h2 className="projects-grid-box-wrapper-subtitle">Reforma Truck Evangelista</h2>
                                 <p className="projects-grid-box-wrapper-text">Essa é uma landing page feito para o meu pai chamado reforma truck</p>
@@ -49,7 +49,16 @@ export default function Projetos() {
                                 </a>
                             </div>
                         </div>
-    
+                        <div className="projects-grid-box">
+                            <Image className="projects-grid-box-image" src={"/images/TodoListDjango.png"} alt={"Lista de afazeres feito em django"} width={400} height={200}></Image>
+                            <div className="projects-grid-box-wrapper">
+                                <h2 className="projects-grid-box-wrapper-subtitle">TodoListDjango</h2>
+                                <p className="projects-grid-box-wrapper-text">Esse é uma lista de afazeres feito em django</p>
+                                <a className="projects-grid-box-wrapper-link" href="https://reformatruckevangelista.vercel.app">
+                                    <button className="projects-grid-box-wrapper-link-button">Ver mais</button>
+                                </a>
+                            </div>
+                        </div>
             </div>
 
     <div className="stars">
