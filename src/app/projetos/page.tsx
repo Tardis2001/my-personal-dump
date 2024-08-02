@@ -54,7 +54,7 @@ export default function Projetos() {
                             <div className="projects-grid-box-wrapper">
                                 <h2 className="projects-grid-box-wrapper-subtitle">TodoListDjango</h2>
                                 <p className="projects-grid-box-wrapper-text">Esse é uma lista de afazeres feito em django</p>
-                                <a className="projects-grid-box-wrapper-link" href="https://reformatruckevangelista.vercel.app">
+                                <a className="projects-grid-box-wrapper-link" href="https://github.com/Tardis2001/todolist-django">
                                     <button className="projects-grid-box-wrapper-link-button">Ver mais</button>
                                 </a>
                             </div>
