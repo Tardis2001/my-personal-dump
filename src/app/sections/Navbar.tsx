@@ -1,19 +1,18 @@
-"use client"
-import Link from "next/link";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { CgClose } from "react-icons/cg";
-import React, { useEffect, useState } from "react";
+"use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import { CgClose } from "react-icons/cg";
+import { GiHamburgerMenu } from "react-icons/gi";
 function Navbar() {
   const [responsiveNavVisible, setResponsiveNavVisible] = useState(false);
   const sectionLinks = [
     { name: "Home", link: "/" },
     { name: "Sobre", link: "/sobre" },
     { name: "Projetos", link: "/projetos" },
-    { name: "Blog", link: "/blog" },
-    { name: "Contatos", link: "/contatos"},
+    { name: "Blog", link: "http://92.112.177.162:8001/" },
+    { name: "Contatos", link: "/contatos" },
   ];
-
 
   useEffect(() => {
     const links = document.querySelectorAll(".nav-items-list-item-link");
@@ -32,7 +31,7 @@ function Navbar() {
 
   return (
     <nav>
-      <div className={'wrapper'}>
+      <div className={"wrapper"}>
         <motion.div
           className="brand"
           initial={{ opacity: 0 }}
@@ -42,7 +41,7 @@ function Navbar() {
             ease: "easeInOut",
           }}
         >
-            <a className="brand">Matheus</a>
+          <a className="brand">Matheus</a>
         </motion.div>
         <motion.div
           className="nav-responsive-toggle"
@@ -55,14 +54,14 @@ function Navbar() {
         >
           {responsiveNavVisible ? (
             <CgClose
-              onClick={(e: { stopPropagation: () => void; }) => {
+              onClick={(e: { stopPropagation: () => void }) => {
                 e.stopPropagation();
                 setResponsiveNavVisible(false);
               }}
             />
           ) : (
             <GiHamburgerMenu
-              onClick={(e: { stopPropagation: () => void; }) => {
+              onClick={(e: { stopPropagation: () => void }) => {
                 e.stopPropagation();
                 setResponsiveNavVisible(true);
               }}
@@ -100,8 +99,7 @@ function Navbar() {
               ease: "easeInOut",
               delay: 0.3,
             }}
-          >
-          </motion.div>
+          ></motion.div>
         </div>
       </div>
     </nav>
